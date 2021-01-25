@@ -1,4 +1,5 @@
-# covax
+# Welcome to Covax
+## Spreading vaccination resources, spreading happiness, fighting COVID-19
 Covax gathers information to teach people where they can get vaccinated if they are eligible. It will crowdsource ongoing experiences of vaccinations, vaccination appointments, and resources to set appointments while sharing information on groups that have been allotted vaccinations at particular locations. 
 
 Users will share experiences so that others may learn where appointments can be made, if vaccines are available, if they are no longer available, and to whom they are made available. 
