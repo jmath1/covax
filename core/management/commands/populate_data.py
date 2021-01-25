@@ -11,7 +11,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         locations = options.get("locations")
-        votes_per_location = options.get("votes")
+        votes = options.get("votes")
         appointments = options.get("appointments")
         if not locations and not votes_per_location and not appointments:
             print("You must use a --votes, --locations, or --appointments flag followed by an integer")
@@ -23,8 +23,8 @@ class Command(BaseCommand):
                 loc.save()
                 print(f"Created {loc}")
 
-        if votes_per_location:
-            for x in range(1, votes_per_location + 1):
+        if votes:
+            for x in range(1, votes + 1):
                 vote_data = fake_vote()
                 vote = Vote(**vote_data).save()
                 print(f"Created {vote}")
