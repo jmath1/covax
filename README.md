@@ -1,2 +1,1 @@
 # covax
-# covax
